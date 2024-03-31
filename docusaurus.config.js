@@ -115,11 +115,11 @@ const config = {
               },
               {
                 label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                href: "https://discordapp.com/invite/nRFff6awUn",
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                href: "https://twitter.com/crabbyofficial1",
               },
             ],
           },
