@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Download
 
-Download Crabby🦀 for Windows
+## Download Crabby🦀 for Windows
 
 Get started with Crabby on your Windows machine. Download the installer below and follow the on-screen instructions.
 
@@ -21,3 +21,8 @@ Get started with Crabby on your Windows machine. Download the installer below an
 * An internet connection is required for initial download and potential updates
 * Administrator privileges may be required for installation(optional.)
 * This page might changed for the upcoming updates
+
+## Download Crabby for MacOS (Sooner)
+
+For now Crabby isn't available in MacOS but we will tey to find solutions
+for it to be released!
