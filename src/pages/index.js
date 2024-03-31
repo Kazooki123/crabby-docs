@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/">
-            Crabby Tutorial - 5min ⏱️
+            Crabby Tutorial ⏱️
           </Link>
         </div>
       </div>
@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Crabby Docs & Guides!">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
