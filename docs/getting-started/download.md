@@ -24,5 +24,5 @@ Get started with Crabby on your Windows machine. Download the installer below an
 
 ## Download Crabby for MacOS (Sooner)
 
-For now Crabby isn't available in MacOS but we will tey to find solutions
+For now Crabby isn't available in MacOS but we will try to find solutions
 for it to be released!
