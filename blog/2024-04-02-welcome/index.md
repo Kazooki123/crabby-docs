@@ -5,6 +5,6 @@ authors: [kazooki, trnx]
 tags: [crabby, developers, coding]
 ---
 
-## Crabby
+# Crabby
 
 Welcome to Crabby Blog!
