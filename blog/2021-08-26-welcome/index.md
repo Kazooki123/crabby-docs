@@ -1,6 +1,6 @@
 ---
 slug: blog
-title: Crabby Blog
+title: blog
 authors: [kazooki, trnx]
 tags: [crabby, developers, coding]
 ---
