@@ -27,5 +27,17 @@ hello.cb ("cb" short for crabby)
 ### hello.cb
 
 ```python
+import 'output' from 'std';
+
 output.print("Hello World");
 ```
+
+### Let's break down
+
+**import 'output' from 'std';** - Means that it is importing the "output" from Crabby's standard library(std)
+
+**output.print** - The syntax to print "Hello World"(without it, it throws an error)
+
+**";"** - This is very optional. Without this again it throws an error.
+
+We will also make a code runner on this docs website!
