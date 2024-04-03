@@ -1,9 +1,11 @@
 ---
 slug: long-blog-post
 title: Long Blog Post
-authors: endi
+authors: kazooki
 tags: [hello, docusaurus]
 ---
+
+# Long Blog Post
 
 This is the summary of a very long blog post,
 
