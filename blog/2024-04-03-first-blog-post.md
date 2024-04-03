@@ -1,8 +1,8 @@
 ---
 slug: first-blog-post
 title: First Blog Post
-authors: kazooki
-tags: [hola, docusaurus]
+authors: [kazooki, satvik, saturo]
+tags: [crabby, blog, language]
 ---
 
 First Blog: Welcome to the World of Crabby!
