@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -144,6 +144,25 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+
+  plugins: [
+    function myPlugin(context, options) {
+      return {
+        name: "custom-webpack-plugin",
+        configureWebpack(config, isServer, utils) {
+          return {
+            resolve: {
+              fallback: {
+                child_process: false,
+                path: require.resolve("path-browserify"),
+              },
+            },
+          };
+        },
+      };
+    },
+  ],
 };
+
 
 export default config;
