@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import RunButton from './RunButton';
-import Terminal from './Terminal';
+import XTerminal from './Terminal';
 
 const CrabbyRunner = () => {
     const [output, setOutput] = useState('');
@@ -8,7 +8,7 @@ const CrabbyRunner = () => {
     return (
         <div>
             <RunButton setOutput={setOutput} />
-            <Terminal output={output} />
+            <XTerminal output={output} />
         </div>
     );
 };

@@ -1,24 +1,19 @@
-import React from 'react';
-import { Terminal as ReactTerminal } from 'react-console-emulator';
+import React, { useEffect, useRef } from "react";
+import { Terminal } from "xterm";
+import "xterm/css/xterm.css";
 
-const Terminal = ({ output }) => {
-    const commands = {
-        showOutput: () => output,
-    };
+const XTerminal = ({ output }) => {
+  const terminalRef = useRef(null);
 
-    return (
-        <ReactTerminal
-            commands={commands}
-            startState="showOutput"
-            prompt="$ "
-            styles={{
-                fontFamily: 'monospace',
-                fontSize: '14px',
-                backgroundColor: '#000',
-                color: '#0f0',
-            }}
-        />
-    );
+  useEffect(() => {
+    const term = new Terminal();
+    term.open(terminalRef.current);
+    term.write(output);
+  }, [output]);
+
+  return (
+    <div ref={terminalRef} style={{ width: "100%", height: "100%" }}></div>
+  );
 };
 
-export default Terminal;
+export default XTerminal;
