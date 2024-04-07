@@ -1,9 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import { exec } from 'child_process';
 import path from 'path';
+import XTerminal from './Terminal';
 
 const RunButton = ({ code }) => {
     const [output, setOutput] = useState('');
+
+    const handleInput = useCallback((input) => {
+        // Process the input here
+        // For example, you can set the output based on the input
+        setOutput(`You typed: ${input}`);
+    }, []);
 
     const runCrabby = () => {
         const crabbyExePath = path.join(__dirname, 'crabby.exe');
@@ -25,7 +32,7 @@ const RunButton = ({ code }) => {
     return (
         <div>
             <button onClick={runCrabby}>Run</button>           
-            {/* <Terminal output={output} */}
+            <XTerminal onInput={handleInput} output={output} />
         </div>
     );
 };

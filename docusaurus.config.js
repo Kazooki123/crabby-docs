@@ -15,7 +15,7 @@ const config = {
   // @ts-ignore
   title: "Welcome to Crabby:",
   // @ts-ignore
-  tagline: "The New Programming Langauge🦀",
+  tagline: "The New Programming Language🦀",
   // @ts-ignore
   favicon: "img/crabbylogo.png",
 
@@ -27,8 +27,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "Kazooki123", // Usually your GitHub org/user name.
+  projectName: "crabby-docs", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -40,6 +40,8 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
+
+  themes: ["@docusaurus/theme-live-codeblock"],
 
   presets: [
     [
@@ -56,8 +58,7 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/Kazooki123/crabby-docs/tree/main/docs",
         },
         theme: {
           customCss: "./src/css/custom.css",
