@@ -58,6 +58,6 @@ let x = lambda(a): {
 print(x(5))
 ```
 
-### And many more!
+### And many more! 😄
 
 You can visit the [Crabby Repo](https://github.com/Kazooki123/crabby.git) to see more examples.
