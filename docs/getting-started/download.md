@@ -34,7 +34,7 @@ cargo build
 ## Additional Notes
 
 * An internet connection is required for initial download and potential updates
-* Administrator privileges may be required for installation(optional.)
+* Crabby works only in Rust nightly version
 * This page might changed for the upcoming updates
 
 ## Download Crabby for MacOS (Sooner)
