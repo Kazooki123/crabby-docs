@@ -90,9 +90,9 @@ for i in range(10): {
 }
 ```
 
-OR
+`range` - A keyword for a function that **returns** a sequence of numbers. For example:
 
-```rs
+```py
 let x = range(100)
 
 for i in x: {
