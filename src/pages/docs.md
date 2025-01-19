@@ -4,10 +4,10 @@ sidebar_position: 1
 
 # Introduction
 
-**Welcome to the world of Crabby**, a revolutionary programming language made entirely in the **Rust**, designed to meet the demands of the modern programming era. Crabby is not just another language; it's a paradigm shift that aims to redefine the way we approach programming.
+**Welcome to the world of Crabby**, a programming language made entirely in the **Rust**, designed to meet the demands of the modern programming era. Crabby is not just another language; it's a paradigm shift that aims to redefine the way we approach programming.
 
-Crabby has a **Pythonic** yet **Functional** syntax-like. Which means if you know mostly about coding in Python,
-you'd probbably appreaciate this language.
+Crabby has a **Pythonic** yet **Functional**-like syntax. Which means if you know mostly about coding in Python,
+you'd probably appreciate this language.
 
 Crabby file formats are either `.crab` or `.cb`, but `.crab` is widely recommended for now.
 
