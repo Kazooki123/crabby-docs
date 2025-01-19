@@ -16,7 +16,7 @@ cargo --version
 Step 2: Git clone the Crabby repository
 
 ```bash
-git clone https://github.com/Kazooki123/crabby.git
+git clone https://github.com/crabby-lang/crabby.git
 ```
 
 Step 3: Build it
@@ -28,16 +28,11 @@ cargo build
 ## System Requirements
 
 * Windows 10 (64-bit) or later
-* 4 GB RAM or more
-* 1 GB of free disk space
+* 2-4 GB RAM or more
+* 100MB Disk Space or more
 
 ## Additional Notes
 
 * An internet connection is required for initial download and potential updates
-* Crabby works only in Rust nightly version
+* Crabby works only in the Rust nightly version
 * This page might changed for the upcoming updates
-
-## Download Crabby for MacOS (Sooner)
-
-For now Crabby isn't available in MacOS but we will try to find solutions
-for it to be released!
