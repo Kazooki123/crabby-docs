@@ -4,9 +4,12 @@ sidebar_position: 1
 
 # Introduction
 
-**Welcome to the world of Crabby**, a revolutionary programming language made entirely in the **Zig language**, designed to meet the demands of the modern programming era. Crabby is not just another language; it's a paradigm shift that aims to redefine the way we approach programming.
+**Welcome to the world of Crabby**, a revolutionary programming language made entirely in the **Rust**, designed to meet the demands of the modern programming era. Crabby is not just another language; it's a paradigm shift that aims to redefine the way we approach programming.
 
-Note: Crabby **isn't a fully functional** programming language yet. So that's why we need you to help us create crabby.
+Crabby has a **Pythonic** yet **Functional** syntax-like. Which means if you know mostly about coding in Python,
+you'd probbably appreaciate this language.
+
+Crabby file formats are either `.crab` or `.cb`, but `.crab` is widely recommended for now.
 
 ## Features
 
@@ -20,24 +23,41 @@ Note: Crabby **isn't a fully functional** programming language yet. So that's wh
 
 This is an example of a **hello world** program
 
-```python
-hello.cb ("cb" short for crabby)
+```js
+print("hello world!")
 ```
 
-### hello.cb
+### math.crab
 
-```python
-import 'output' from 'std';
+```js
+let x = 10
+let y = 10
 
-output.print("Hello World");
+print(x + y)
 ```
 
-### Let's break down
+### if-else.crab
 
-**import 'output' from 'std';** - Means that it is importing the "output" from Crabby's standard library(std)
+```js
+let true = 1
 
-**output.print** - The syntax to print "Hello World"(without it, it throws an error)
+if true: {
+    print("True!")
+} else {
+    print("False!")
+}
+```
 
-**";"** - This is very optional. Without this again it throws an error.
+### lambda.crab
 
-We will also make a code runner on this docs website!
+```js
+let x = lambda(a): {
+    return a + 10
+}
+
+print(x(5))
+```
+
+### And many more!
+
+You can visit the [Crabby Repo](https://github.com/Kazooki123/crabby.git) to see more examples.
