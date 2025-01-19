@@ -27,7 +27,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "Kazooki123", // Usually your GitHub org/user name.
+  organizationName: "crabby-lang", // Usually your GitHub org/user name.
   projectName: "crabby-docs", // Usually your repo name.
 
   onBrokenLinks: "throw",
@@ -89,7 +89,7 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/Kazooki123/crabby",
+            href: "https://github.com/crabby-lang/crabby",
             label: "GitHub",
             position: "right",
           },
@@ -112,11 +112,11 @@ const config = {
             items: [
               {
                 label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                href: "https://stackoverflow.com/questions/tagged/crabby",
               },
               {
                 label: "Discord",
-                href: "https://discordapp.com/invite/nRFff6awUn",
+                href: "https://discord.gg/hs6zN3zX",
               },
               {
                 label: "Twitter",
@@ -133,7 +133,7 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/crabby-lang/crabby",
               },
             ],
           },
