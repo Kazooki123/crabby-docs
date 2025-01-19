@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Crabby Keywords and Syntaxes
+# Keywords
 
 `pub` - Shorten for `public`, is a keyword used for functions. For example:
 
