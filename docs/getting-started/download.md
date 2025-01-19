@@ -25,6 +25,12 @@ Step 3: Build it
 cargo build
 ```
 
+Step 4: Test and Run it
+
+```bash
+cargo run ./examples/example.crab
+```
+
 ## System Requirements
 
 * Windows 10 (64-bit) or later

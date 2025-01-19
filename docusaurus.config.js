@@ -9,7 +9,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Crabby",
-  tagline: "Crabby the programming language",
+  tagline: "Crabby the Programming Language",
   favicon: "img/favicon.ico",
 
   // @ts-ignore
@@ -17,7 +17,7 @@ const config = {
   // @ts-ignore
   tagline: "The New Programming Language🦀",
   // @ts-ignore
-  favicon: "img/crabbylogo.png",
+  favicon: "img/crabby.png",
 
   // Set the production url of your site here
   url: "https://your-docusaurus-site.example.com",
