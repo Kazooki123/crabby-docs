@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Keywords
 
+Here you can find a list of all the keywords in Crabby!
+
 `pub` - Shorten for `public`, is a keyword used for functions. For example:
 
 ```rs
