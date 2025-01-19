@@ -4,11 +4,26 @@ sidebar_position: 1
 
 # Download
 
-## Download Crabby🦀 for Windows
+## Git clone (recommended)
 
-Get started with Crabby on your Windows machine. Download the installer below and follow the on-screen instructions.
+Step 1: Make sure to have `git` and `rust` installed
 
-<a href="download/crabby-windows.exe" class="download-button">Download Crabby Installer (exe)</a>
+```bash
+git --version
+cargo --version
+```
+
+Step 2: Git clone the Crabby repository
+
+```bash
+git clone https://github.com/Kazooki123/crabby.git
+```
+
+Step 3: Build it
+
+```bash
+cargo build
+```
 
 ## System Requirements
 
