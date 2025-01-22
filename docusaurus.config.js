@@ -71,14 +71,14 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/crabby-social-card.jpg",
       navbar: {
         title: "Crabby",
         logo: {
           alt: "Crabby Logo",
-          src: "img/logo.svg",
+          src: "img/crabby.png",
           // @ts-ignore
-          src: "img/crabbylogo.png",
+          src: "img/crabby.png",
         },
         items: [
           {

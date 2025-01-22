@@ -13,6 +13,12 @@ git --version
 cargo --version
 ```
 
+**NOTE**: To install `Rust` with `Cargo`:
+
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
 Step 2: Git clone the Crabby repository
 
 ```bash
