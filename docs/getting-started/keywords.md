@@ -8,7 +8,7 @@ Here you can find a list of all the keywords in Crabby!
 
 `pub` - Shorten for `public`, is a keyword used for functions. For example:
 
-```rs
+```js
 // public.crab
 
 pub def foo(): {
@@ -28,7 +28,7 @@ foo()
 
 `def` - Shorten for `define`, is a keyword used for functions. For example:
 
-```rs
+```js
 // public.crab
 
 def foo(): {
@@ -38,7 +38,7 @@ def foo(): {
 
 `let` - Let is a keyword used for variables. For example:
 
-```rs
+```js
 // public.crab
 
 let x = 10
@@ -46,20 +46,20 @@ let x = 10
 
 `if` - If is a keyword used for conditional statements, with the keyword `else`. For example:
 
-```rs
+```js
 let x = true
 let y = false
 
-if x: { // If choosed 'y', then it'll return it false
+if x: { // If choose 'y', then it'll return it false
     print("True!")
 } else {
     print("False!")
 }
 ```
 
-`macro` - **EXPERIMENTAL!** Macro is a keyword used for defining macros, it is a code, that writes code. For example:
+`macro` - **`EXPERIMENTAL!`** Macro is a keyword used for defining macros, it is a code, that writes code. For example:
 
-```rs
+```js
 macro def add(a, b): {
     return a + b
 }
@@ -69,7 +69,7 @@ print(add(10, 20))
 
 `lambda` - Uses for Math equating and basic maths, Lambda creates **small** anonymous functions, just like in Python! For example:
 
-```rs
+```js
 let x = lambda(a): {
     return a + 10
 }
@@ -79,7 +79,7 @@ print(x(5))
 
 `loop` - A keyword used for looping, Although it supports another looping method which we'll be after this. For example:
 
-```rs
+```js
 loop 100: {
     print("HELLO!") // Prints it 100 times
 }
@@ -87,7 +87,7 @@ loop 100: {
 
 `for` A keyword used for looping, uses other keywords like `in` and `range()`. For example:
 
-```py
+```js
 for i in range(10): {
     print(i)
 }
@@ -95,7 +95,7 @@ for i in range(10): {
 
 `range` - A keyword for a function that **returns** a sequence of numbers. For example:
 
-```py
+```js
 let x = range(100)
 
 for i in x: {
