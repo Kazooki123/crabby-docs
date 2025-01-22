@@ -13,7 +13,7 @@ const config = {
   favicon: "img/favicon.ico",
 
   // @ts-ignore
-  title: "Welcome to Crabby:",
+  title: "Welcome to Crabby!",
   // @ts-ignore
   tagline: "The New Programming Language🦀",
   // @ts-ignore
