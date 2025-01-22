@@ -47,9 +47,10 @@ let x = 10
 `if` - If is a keyword used for conditional statements, with the keyword `else`. For example:
 
 ```rs
-let true = 1
+let x = true
+let y = false
 
-if true: {
+if x: { // If choosed 'y', then it'll return it false
     print("True!")
 } else {
     print("False!")
