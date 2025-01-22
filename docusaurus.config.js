@@ -50,14 +50,10 @@ const config = {
       ({
         docs: {
           sidebarPath: "./sidebars.js",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/Kazooki123/crabby-docs/tree/main/docs",
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/Kazooki123/crabby-docs/tree/main/docs",
         },
         theme: {
@@ -88,9 +84,15 @@ const config = {
             label: "Tutorial",
           },
           { to: "/blog", label: "Blog", position: "left" },
+          { to: "/community", label: "Community", position: "left" },
           {
             href: "https://github.com/crabby-lang/crabby",
             label: "GitHub",
+            position: "right",
+          },
+          {
+            href: "https://discord.gg/r7zMpfGm",
+            label: "Discord",
             position: "right",
           },
         ],
@@ -116,7 +118,7 @@ const config = {
               },
               {
                 label: "Discord",
-                href: "https://discord.gg/hs6zN3zX",
+                href: "https://discord.gg/r7zMpfGm",
               },
               {
                 label: "Twitter",
