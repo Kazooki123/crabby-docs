@@ -12,7 +12,7 @@ Here are some of the ways you can get involved with the Crabby community:
 
 * Forums: The official Crabby forums are a great place to ask questions, get help from other Crabby developers, and discuss all things Crabby.
 
-* Chat: Join the Crabby chat channel on **[Discord](https://discord.gg/r7zMpfGm)** to chat with other Crabby developers in real time.
+* Chat: Join the Crabby chat channel on **[Discord](https://discord.gg/BX7uDaab)** to chat with other Crabby developers in real time.
 
 * Social Media: Follow Crabby on social media to stay up-to-date on the latest news and announcements.
 
