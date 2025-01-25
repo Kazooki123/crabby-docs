@@ -57,15 +57,57 @@ if x: { // If choose 'y', then it'll return it false
 }
 ```
 
-`macro` - **`EXPERIMENTAL!`** Macro is a keyword used for defining macros, it is a code, that writes code. For example:
+`docstrings` - Docstrings are a way to add comments to functions, they are used to describe what the function does. For example:
 
-```js
-macro def add(a, b): {
-    return a + b
+```py
+def foo(): {
+    """
+    This is a docstring!
+    """
+    print("Hello!")
+}
+```
+
+`decorators` - **EXPERIMENTAL!** just like in **Python**, a decorator is a `powerful` and `flexible` way
+to **modify** or **extend** the behavior of a function or method **WITHOUT** changing their `actual` code. For example:
+
+```py
+def sprinkles(): {
+    print("Adding Sprinkles!❄️")
 }
 
-print(add(10, 20))
+// This is a decorator
+@sprinkles
+def ice_cream(): {
+    print("Here is your ice cream!🍨❄️")
+}
+
 ```
+
+> When to use Decorators?
+
+Decorators are a powerful tool for modifying the behavior of functions or methods without changing their actual code. They are often used to add logging, timing, or other functionality to existing code.
+
+`macro` - **`EXPERIMENTAL!`** Macro is a keyword used for defining macros, it is a code, that writes code which is a form of **Metaprogramming** just like `decorators`. For example:
+
+```rs
+macro_rules! repeat: {
+    ($value, $count) => {
+        for i in 0..$count {
+            print($value)
+        }
+    }
+}
+
+pub def bar(): {
+    repeat!("Hello, World!", 10)
+}
+
+```
+
+> When to use Macros?
+
+Macros are a powerful tool for writing code that generates code. They are often used to generate repetitive code, or to abstract away boilerplate code.
 
 `lambda` - Uses for Math equating and basic maths, Lambda creates **small** anonymous functions, just like in Python! For example:
 
