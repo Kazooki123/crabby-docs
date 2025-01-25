@@ -20,7 +20,7 @@ const config = {
   favicon: "img/crabby.png",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://crabby-docs.vercel.app/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -91,7 +91,7 @@ const config = {
             position: "right",
           },
           {
-            href: "https://discord.gg/r7zMpfGm",
+            href: "https://discord.gg/BX7uDaab",
             label: "Discord",
             position: "right",
           },
@@ -118,7 +118,7 @@ const config = {
               },
               {
                 label: "Discord",
-                href: "https://discord.gg/r7zMpfGm",
+                href: "https://discord.gg/BX7uDaab",
               },
               {
                 label: "Twitter",
