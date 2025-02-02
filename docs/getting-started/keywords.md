@@ -11,7 +11,7 @@ Here you can find a list of all the keywords in Crabby!
 ```js
 // public.crab
 
-pub def foo(): {
+pub def foo() {
     print("Hello!")
 }
 ```
@@ -31,7 +31,7 @@ foo()
 ```js
 // public.crab
 
-def foo(): {
+def foo() {
     print("Hello!")
 }
 ```
@@ -50,7 +50,7 @@ let x = 10
 let x = true
 let y = false
 
-if x: { // If choose 'y', then it'll return it false
+if x { // If choose 'y', then it'll return it false
     print("True!")
 } else {
     print("False!")
@@ -60,7 +60,7 @@ if x: { // If choose 'y', then it'll return it false
 `docstrings` - Docstrings are a way to add comments to functions, they are used to describe what the function does. For example:
 
 ```py
-def foo(): {
+def foo() {
     """
     This is a docstring!
     """
@@ -72,13 +72,13 @@ def foo(): {
 to **modify** or **extend** the behavior of a function or method **WITHOUT** changing their `actual` code. For example:
 
 ```py
-def sprinkles(): {
+def sprinkles() {
     print("Adding Sprinkles!❄️")
 }
 
 // This is a decorator
 @sprinkles
-def ice_cream(): {
+def ice_cream() {
     print("Here is your ice cream!🍨❄️")
 }
 
@@ -99,7 +99,7 @@ macro_rules! repeat: {
     }
 }
 
-pub def bar(): {
+pub def bar() {
     repeat!("Hello, World!", 10)
 }
 
@@ -122,7 +122,7 @@ print(x(5))
 `loop` - A keyword used for looping, Although it supports another looping method which we'll be after this. For example:
 
 ```js
-loop 100: {
+loop 100 {
     print("HELLO!") // Prints it 100 times
 }
 ```
@@ -130,7 +130,7 @@ loop 100: {
 `for` A keyword used for looping, uses other keywords like `in` and `range()`. For example:
 
 ```js
-for i in range(10): {
+for i in range(10) {
     print(i)
 }
 ```
@@ -140,7 +140,7 @@ for i in range(10): {
 ```js
 let x = range(100)
 
-for i in x: {
+for i in x {
     print("Hello, World!")
 }
 ```
