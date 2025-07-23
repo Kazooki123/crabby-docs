@@ -68,7 +68,7 @@ def foo() {
 }
 ```
 
-`const` - meaning **constant**, ones a value is assigned to a const it cannot be changed or modified in any ways during runtime and compile time.
+`const` - meaning **constant**, once a value is assigned to a const it cannot be changed or modified in any ways during runtime and compile time.
 
 ```js
 const PI: Float = 3.14159
