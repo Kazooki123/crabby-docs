@@ -37,12 +37,6 @@ Step 4: Test and Run it
 cargo run ./examples/example.crab
 ```
 
-## System Requirements
-
-* Windows 10 (64-bit) or later
-* 2-4 GB RAM or more
-* 100MB Disk Space or more
-
 ## Additional Notes
 
 * An internet connection is required for initial download and potential updates
