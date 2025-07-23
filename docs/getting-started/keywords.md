@@ -68,6 +68,17 @@ def foo() {
 }
 ```
 
+`const` - meaning **constant**, ones a value is assigned to a const it cannot be changed or modified in any ways during runtime and compile time.
+
+```js
+const PI: Float = 3.14159
+const MAX_USERS: Int = 100
+
+pub def area(radius: Float) -> Float {
+    return PI * radius * radius
+}
+```
+
 `decorators` - **EXPERIMENTAL!** just like in **Python**, a decorator is a `powerful` and `flexible` way
 to **modify** or **extend** the behavior of a function or method **WITHOUT** changing their `actual` code. For example:
 
@@ -91,10 +102,10 @@ Decorators are a powerful tool for modifying the behavior of functions or method
 `macro` - **`EXPERIMENTAL!`** Macro is a keyword used for defining macros, it is a code, that writes code which is a form of **Metaprogramming** just like `decorators`. For example:
 
 ```rs
-macro_rules! repeat: {
-    ($value, $count) => {
-        for i in 0..$count {
-            print($value)
+macro repeat {
+    (value, count) => {
+        for i in 0..count {
+            print(value)
         }
     }
 }
@@ -142,5 +153,50 @@ let x = range(100)
 
 for i in x {
     print("Hello, World!")
+}
+```
+
+`enums` - short for **enumerations**, it's a custom data type that can be one of several different variants.
+
+```js
+pub enum Colors {
+    Red,
+    Green,
+    Pink,
+    Purple,
+    Blue,
+    RGB(r: Int, g: Int, b: Int),
+}
+```
+
+`structs` - A custom data type that allows you to group together related data under a single name.
+
+```js
+struct Point where x >= 0 {
+    x: Int,
+    y: Int,
+}
+
+pub struct Person {
+    name: String,
+    age: Int,
+    hobbies: String,
+    birthday: Date,
+}
+```
+
+`match` & `case` - used for pattern matching
+
+```py
+pub def colors(color: Color) {
+    match color {
+        case Color.Red => print("Red"),
+        case Color.Green => print("Green"),
+        case Color.Pink => print("Pink"),
+        case Color.Purple => print("Purple"),
+        case Color.Blue => print("Blue"),
+        case Color.RGB => print(f"RGB: {r}, {g}, {b}"),
+        case _ => print("Other color")
+    }
 }
 ```
