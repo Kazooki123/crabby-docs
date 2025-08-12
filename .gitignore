@@ -20,3 +20,8 @@ yarn-debug.log*
 yarn-error.log*
 .vercel
 .vscode
+*.lock
+*.lockb
+package-lock.json
+*.markdownlint.json
+*.env

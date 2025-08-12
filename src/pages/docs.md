@@ -61,4 +61,4 @@ print(x(5))
 
 ### And many more! 😄
 
-You can visit the [Crabby Repo](https://github.com/Kazooki123/crabby.git) to see more examples.
+You can visit the [Crabby Repo](https://github.com/crabby-lang/crabby.git) to see more examples.

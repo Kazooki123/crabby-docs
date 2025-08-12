@@ -1,43 +1,49 @@
+import React, { JSX } from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
-const FeatureList = [
+type FeatureItem = {
+  title: String;
+  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  description: JSX.Element;
+};
+
+const FeatureList: FeatureItem[] = [
   {
     title: 'Simplicity',
     Svg: require('@site/static/img/crabby.svg').default,
     description: (
-      <>
-        Crabby is designed with simplicity in mind. It's easy to learn and understand, making it perfect for beginners. Yet, it's powerful enough to handle complex tasks, making it a great choice for experienced developers as well.
+      <>  
+        Crabby is designed with simplicity in mind. It's easy to learn and understand, making it perfect for beginners. Yet, it's powerful enough to handle complex tasks, making it a great choice for experienced developers as well."
       </>
-    ),
+    )
   },
   {
     title: 'Efficiency',
     Svg: require('@site/static/img/crabby.svg').default,
     description: (
-      <>
+      <>  
         Crabby is built for speed. It's optimized for performance, ensuring that your programs run as fast as possible. With Crabby, you can focus on writing great code, knowing that it will be executed efficiently.
       </>
-    ),
+    )
   },
   {
     title: 'Versatility',
     Svg: require('@site/static/img/crabby.svg').default,
     description: (
-      <>
-        <span> Crabby </span> is a versatile language. It supports multiple programming paradigms, allowing you to choose the best approach for each task. Whether you prefer procedural, object-oriented, or functional programming, Crabby has you covered.
+      <>  
+        Crabby is a versatile language. It supports multiple programming paradigms, allowing you to choose the best approach for each task. Whether you prefer procedural, object-oriented, or functional programming, Crabby has you covered."
       </>
-    ),
+    )
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({title, Svg, description}: FeatureItem): JSX.Element {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--4')} >
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
-        <img src={styles.featureSvg}  alt="" />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
@@ -47,7 +53,7 @@ function Feature({Svg, title, description}) {
   );
 }
 
-export default function HomepageFeatures() {
+export default function HomepageFeatures(): JSX.Element {
   return (
     <section className={styles.features}>
       <div className="container">

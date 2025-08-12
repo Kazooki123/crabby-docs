@@ -5,9 +5,14 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import { themes as prismThemes } from "prism-react-renderer";
+import type {Config} from "@docusaurus/types";
+import type * as Preset from "@docusaurus/preset-classic";
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 /** @type {import('@docusaurus/types').Config} */
-const config = {
+const config: Config = {
   title: "Crabby",
   tagline: "Crabby the Programming Language",
   favicon: "img/favicon.ico",
@@ -49,7 +54,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: "./sidebars.js",
+          sidebarPath: "./sidebars.ts",
           editUrl: "https://github.com/Kazooki123/crabby-docs/tree/main/docs",
         },
         blog: {
@@ -59,10 +64,11 @@ const config = {
         theme: {
           customCss: "./src/css/custom.css",
         },
-      }),
+      }) satisfies Preset.Options,
     ],
   ],
 
+  // HEADER
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -77,17 +83,19 @@ const config = {
           src: "img/crabby.png",
         },
         items: [
+          { to: "/downloads", label: "Download", position: "left" },
           {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
             label: "Tutorial",
           },
+          { to: "/playground", label: "Playground", position: "left" },
           { to: "/blog", label: "Blog", position: "left" },
           { to: "/community", label: "Community", position: "left" },
           {
             href: "https://github.com/crabby-lang/crabby",
-            label: "GitHub",
+            label: "⭐ GitHub",
             position: "right",
           },
           {
@@ -97,6 +105,14 @@ const config = {
           },
         ],
       },
+      algolia : {
+        appId: process.env.ALGOLIA_ID,
+        apiKey: process.env.SEARCH_API_KEY,
+        indexName: process.env.ALGOLIA_INDEX_NAME,
+        contextualSearch: true,
+        searchPagePath: "search",
+      },
+      // FOOTER
       footer: {
         style: "dark",
         links: [
@@ -140,13 +156,13 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Crabby. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Crabby. Built with Docusaurus and love 💖`,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
-    }),
+    }) satisfies Preset.ThemeConfig,
 
   plugins: [
     function myPlugin(context, options) {
@@ -166,6 +182,5 @@ const config = {
     },
   ],
 };
-
 
 export default config;

@@ -1,0 +1,30 @@
+.playground-container {
+  margin: 20px 0;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.editor-section {
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.controls {
+  padding: 10px;
+  background: var(--ifm-background-surface-color);
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.output-section {
+  background: var(--ifm-background-surface-color);
+  padding: 10px;
+  min-height: 100px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.output-terminal {
+  margin: 0;
+  font-family: monospace;
+  white-space: pre-wrap;
+}

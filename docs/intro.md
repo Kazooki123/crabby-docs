@@ -23,4 +23,4 @@ Crabby is built on the Rust programming language, which is known for its speed, 
 
 ## Lets go! 😄
 
-Now done, you can go to the [Getting Started](/docs/getting-started/download) page to download and install Crabby.
+Now done, you can go to the [Getting Started](/docs/getting-started/syntaxes/introduction) page to download and install Crabby.
