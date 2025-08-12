@@ -56,7 +56,7 @@ choco install crabby
 For Mac users, you can simply use `homebrew` to download crabby:
 
 ```bash
-homebrew install crabby
+brew install crabby
 ```
 
 ## Linux 🐧
