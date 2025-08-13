@@ -1,7 +1,7 @@
 ---
 slug: introducing-crab
 title: Introducing Crab the Package Manager.
-authors: kazooki
+authors: kazooki123
 tags: [crabby, blog, rust, package, library]
 ---
 

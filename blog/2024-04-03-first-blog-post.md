@@ -1,7 +1,7 @@
 ---
 slug: first-blog-post
 title: First Blog Post
-authors: [kazooki, satvik, saturo]
+authors: [kazooki123, satvik, saturo]
 tags: [crabby, blog, language]
 ---
 

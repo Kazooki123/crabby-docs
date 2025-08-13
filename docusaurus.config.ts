@@ -48,6 +48,16 @@ const config: Config = {
 
   themes: ["@docusaurus/theme-live-codeblock"],
 
+  headTags: [
+    {
+      tagName: "meta",
+      attributes: {
+        name: 'algolia-site-verification',
+        content: '10816DF3670DB02C',
+      },
+    },
+  ],
+
   presets: [
     [
       "classic",
