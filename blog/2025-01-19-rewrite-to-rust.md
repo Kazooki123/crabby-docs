@@ -1,7 +1,7 @@
 ---
 slug: rewrite-to-rust
 title: Crabby's Rewrite to Rust
-authors: kazooki
+authors: kazooki123
 tags: [crabby, blog, rust, rewrite]
 ---
 
