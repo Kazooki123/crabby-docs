@@ -18,4 +18,4 @@ This approach also makes it easier to integrate debugging tools and optimize run
 
 The project is still in early planning and development stages, but it marks a significant step toward making Crabby a fast, reliable, and modern dynamic language.
 
-For more information check the `.docx` file in the Crabby Github repo.
+For more information check the `.docx` file [here](https://github.com/crabby-lang/crabby/blob/main/docs%2FCRAB%20VIRTUAL%20MACHINE.docx)
