@@ -7,6 +7,7 @@ tags: [crabby, blog, bytecode, virtual-machines]
 
 # Introducing the CVM
 
+<<<<<<< HEAD
 The **Crab Virtual Machine** (a.k.a. `CVM`) is an upcoming project for the **Crabby** programming language.  
 It serves as the core runtime environment designed to execute Crabby programs through **bytecode** instead of direct interpretation.
 
@@ -19,3 +20,6 @@ This approach also makes it easier to integrate debugging tools and optimize run
 The project is still in early planning and development stages, but it marks a significant step toward making Crabby a fast, reliable, and modern dynamic language.
 
 For more information check the `.docx` file [here](https://github.com/crabby-lang/crabby/blob/main/docs%2FCRAB%20VIRTUAL%20MACHINE.docx)
+=======
+The Crab Virtual Machine (a.k.a `CVM`) is an upcoming and planned project for Crabby, it is a **Bytecode Virtual Machine**.
+>>>>>>> 02d73c1 (Update the website files and the markdowns.)

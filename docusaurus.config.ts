@@ -65,11 +65,11 @@ const config: Config = {
       ({
         docs: {
           sidebarPath: "./sidebars.ts",
-          editUrl: "https://github.com/Kazooki123/crabby-docs/tree/main/docs",
+          editUrl: "https://github.com/crabby-lang/crabby-docs/tree/main/docs",
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/Kazooki123/crabby-docs/tree/main/docs",
+          editUrl: "https://github.com/crabby-lang/crabby-docs/tree/main/docs",
         },
         theme: {
           customCss: "./src/css/custom.css",
