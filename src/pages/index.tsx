@@ -88,7 +88,7 @@ print(x + y)`}
             <code>{`let x = true
 let y = false
 
-if x: {
+if x {
   print("True!")
 } else {
   print("False!")
@@ -99,7 +99,7 @@ if x: {
         <div>
           <Heading as="h4">lambda.crab</Heading>
           <pre>
-            <code>{`let x = lambda(a): {
+            <code>{`let x = lambda(a) {
   return a + 10
 }
 
