@@ -38,7 +38,7 @@ Popularity, trends, or external pressure are **NOT** primary decision drivers.
 
 ## Contributions
 
-Please read the [Contribution Guide](https://github.com/crabby-lang/crabby/CONTRIBUTING.md) for more informantion about contributing to Crabby.
+Please read the [Contribution Guide](https://github.com/crabby-lang/crabby/blob/main/CONTRIBUTING.md) for more informantion about contributing to Crabby.
 
 ## Community Expectations
 
