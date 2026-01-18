@@ -7,8 +7,8 @@ sidebar_position: 1
 In Crabby, a variable is declared with the `let` and `var` keyword.
 
 ```js
-let a = "Hello"
-var b = "\nWorld!"
+let a = "Hello, "
+var b = " World!"
 
 print(a + b)
 ```
@@ -16,5 +16,5 @@ print(a + b)
 Output:
 
 ```bash
-Hello World!
+Hello, World!
 ```
