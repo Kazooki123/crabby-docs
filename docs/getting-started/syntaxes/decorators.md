@@ -4,8 +4,8 @@ sidebar_position: 1
 
 # Decorators
 
-Just like in **Python**, a decorator in Crabby is a `powerful` and `flexible` way
-to **modify** or **extend** the behavior of a function or method **WITHOUT** changing their `actual` code.
+Just like in **Python**, a decorator in Crabby is a 'powerful' and 'flexible' way
+to **modify** or **extend** the behavior of a function or method **WITHOUT** changing their 'actual' code.
 This can be done with the `@` (at) symbol.
 
 For example:
